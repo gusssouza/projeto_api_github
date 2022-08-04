@@ -17,11 +17,11 @@ function renderiza_link(link) {
 }
 
 const headers = new Headers();
-headers.append('Authorization', 'token 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', {
+headers.append('Authorization', 'token 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', {
     headers: headers
 });
 
-fetch("https://api.github.com/users/gusssouza")                                
+fetch("https://api.github.com/users/gusssouza", {headers: headers})                                
     .then(response => response.json())
     .then(data => {
         console.log(data);
@@ -46,7 +46,7 @@ function repos(repositorios) {
         </div>
         `
 }
-fetch("https://api.github.com/users/gusssouza/repos")                                
+fetch("https://api.github.com/users/gusssouza/repos", {headers: headers})                                
     .then(response => response.json())
     .then(data => {
         console.log(data);
