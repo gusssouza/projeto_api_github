@@ -5,25 +5,26 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-
-
-
 body{
-    background-color: rgb(244, 248, 252);
+    background-color: rgba(165, 248, 126, 0.192);
 }
 
 header{
-    background-color: rgb(213, 235, 255);
-    border-radius: 20px;
+    background: linear-gradient(180deg,rgba(165, 248, 126, 0.651) 0%,rgba(165, 248, 126, 0.438) 35%,rgba(165, 248, 126, 0.151) 100%);
     padding: 15px;
     text-align: center;
     margin: 50px;
-    box-shadow: 10px 5px 5px rgb(51, 51, 51);
+    box-shadow: 6px 3px 3px rgb(51, 51, 51);
 }
 #foto{
     border-radius: 50%;
     width: 15%;
-    box-shadow: 10px 5px 5px rgb(145, 145, 145);
+    box-shadow: 7px 5px 5px rgb(51, 51, 51);
+}
+
+#pSobreMim{
+    font-size: 160%;
+    color: rgba(0, 0, 0, 0.712);
 }
 
 #github{
@@ -38,35 +39,51 @@ header{
 .container{
     display: flexbox;
     text-align: center;
-    background-color: rgb(213, 235, 255);
-    border-radius: 20px;
+    background: linear-gradient(180deg,rgba(165, 248, 126, 0.651) 0%,rgba(165, 248, 126, 0.438) 35%,rgba(165, 248, 126, 0.151) 100%);
     padding: 15px;
     margin: 50px;
-    box-shadow: 10px 5px 5px rgb(51, 51, 51);
+    box-shadow: 6px 3px 3px rgb(51, 51, 51);
     align-items: center;
 }
 
-
 #divRepo{ 
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
     margin: 20px 20px;
     font-family: 'Fira Sans', sans-serif;
+    box-shadow: 2px 2px 2px rgb(51, 51, 51);
+
 
 }
+
+#divRepo:hover{
+    background-color: rgb(39, 39, 39);
+    box-shadow: 6px 6px 6px rgb(51, 51, 51);
+    transition: 0.5s;
+}
+
 a {
     color: black;
-    
-
 }
 
 .repos:hover{
     color: white;
 }
 
+.linguagem{
+    font-size: 13px;
+}
+
 footer{
     text-align: center;
     margin: 50px;
-    background-color: rgb(213, 235, 255);
-    border-radius: 20px;
+    background: linear-gradient(180deg,rgba(165, 248, 126, 0.651) 0%,rgba(165, 248, 126, 0.438) 35%,rgba(165, 248, 126, 0.151) 100%);
     padding: 15px;
-    box-shadow: 10px 5px 5px rgb(51, 51, 51);
+    box-shadow: 6px 3px 3px rgb(51, 51, 51);
+}
+
+.divTeste:hover{
+    background-color: black;
 }
